@@ -89,7 +89,7 @@ def toss_coin(n):
     return mean
 
 number_of_trials = st.slider('¿Número de intentos?', 1, 1000, 10, key='slider_unique_key')
-start_button = st.button('Ejecutar', key='start_button_key')
+start_button = st.button('Ejecutar', key='start_button_key_2')
 
 if start_button:
     st.write(f'Experimento con {number_of_trials} intentos en curso.')
