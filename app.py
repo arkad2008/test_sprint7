@@ -52,7 +52,7 @@ def toss_coin(n):
 
 # Widgets de entrada para configurar el experimento
 number_of_trials = st.slider('¿Número de intentos?', 1, 1000, 10, key='slider_number_of_trials')
-start_button = st.button('Ejecutar')
+start_button = st.button('Ejecutar', key='start_button_key')
 
 # Acción cuando se hace clic en el botón
 if start_button:
